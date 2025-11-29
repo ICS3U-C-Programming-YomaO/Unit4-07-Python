@@ -3,22 +3,24 @@
 # Date: November, 2025
 # This program counts by 5 from 1000 to 2000
 
+
 def main():
 
-   for year in range(1000, 2001, 1):
-       
-       print(year, end=" ")
-       
-       # Print a new line after every 5 numbers
+    for year in range(1000, 2001, 1):
 
-       if year % 5 == 0:
+        print(year, end=" ")
 
-           print()
+        # Print a new line after every 5 numbers
 
-   # Print end message
+        if year % 5 == 0:
 
-   print("\nThanks for playing!")
+            print()
+
+    # Print end message
+
+    print("\nThanks for playing!")
+
 
 if __name__ == "__main__":
 
-   main()
+    main()
